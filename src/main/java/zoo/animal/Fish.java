@@ -1,4 +1,3 @@
 package zoo.animal;
 
-public sealed interface Fish extends Animal permits NothernHogSucker, SlipperyDick {
-}
+public sealed interface Fish extends Animal permits NothernHogSucker, SlipperyDick {}

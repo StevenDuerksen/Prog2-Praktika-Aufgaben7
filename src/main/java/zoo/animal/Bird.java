@@ -1,4 +1,3 @@
 package zoo.animal;
 
-public sealed interface Bird extends Animal permits GreatTit, Dickcissel {
-}
+public sealed interface Bird extends Animal permits GreatTit, Dickcissel {}

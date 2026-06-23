@@ -1,4 +1,3 @@
 package zoo.animal;
 
-public sealed interface Rodent extends Mammal permits PrehensileTailedPorcupine, FatTailedGerbil{
-}
+public sealed interface Rodent extends Mammal permits PrehensileTailedPorcupine, FatTailedGerbil {}

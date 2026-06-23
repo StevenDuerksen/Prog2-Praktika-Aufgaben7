@@ -1,3 +1,3 @@
 package zoo.animal;
 
-public sealed interface Cat permits OrangeCat, NotOrangeCat{}
+public sealed interface Cat extends Mammal permits OrangeCat, NotOrangeCat {}

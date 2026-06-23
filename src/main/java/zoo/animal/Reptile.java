@@ -1,4 +1,3 @@
 package zoo.animal;
 
-public sealed interface Reptile extends Animal permits BasiliscusPlumifrons, ChlamydosaurusKingii{
-}
+public sealed interface Reptile extends Animal permits BasiliscusPlumifrons, ChlamydosaurusKingii {}

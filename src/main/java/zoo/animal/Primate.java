@@ -1,4 +1,3 @@
 package zoo.animal;
 
-public sealed interface Primate extends Mammal permits AyeAye, Human {
-}
+public sealed interface Primate extends Mammal permits AyeAye, Human {}
