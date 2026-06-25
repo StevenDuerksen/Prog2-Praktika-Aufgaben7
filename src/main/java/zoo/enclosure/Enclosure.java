@@ -8,10 +8,14 @@ import java.util.Set;
 public class Enclosure<T extends Animal> {
 
     private final String name;
-    private HashSet<T> animals = new HashSet<>();
+    private final HashSet<T> animals = new HashSet<>();
 
     public Enclosure(String name){
         this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     public String getEnclosure(){
